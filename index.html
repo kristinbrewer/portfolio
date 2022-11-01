@@ -1,29 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Links HTML to CSS stylesheet-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Kristin Brewer, Developer</title>
+    <!--Links HTML to CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 
 <body>
     <!--Header-->
     <header>
-        <p>Kristin Brewer</p>
+        <h1>Kristin Brewer</h1>
+        <nav>
+    <!--Navigation links to portion of page and outside link to resume-->
+          <a href="#about">About Me</a>  
+          <a href="#work">Work</a>
+          <a href="#contact">Contact Me</a>
+          <a href="#resume">Resume</a>
+        </nav>
     </header>
-    <!--Bio-->
-    <section>
+   
+   
+<!--VISUAL BANNER-->
+        <section class="banner">
+            <div>
+                <h2>Web Developer</h2>
+              </div>
+        </section>
+ <!--Bio section with photo-->
+        <main class="page-wrapper">
+         <section class ="page-section" id="about">
+         <h2>About Me</h2>
+         <div>
+            <img src="./images/self.jpg" alt="Photo of Kristin Brewer"/>
+         <p>
+             My name is Kristin and I am a web developer based in Charlottesville, Virginia. I have experience working with both HTML, CSS and am currently learning JavaScript.
+             Before learning to code, I worked professionally as a speech-language-pathologist in the healthcare field where I worked clinically and held leadership positions. My strengths include: high-level communication,
+             eagerness to learn and ability to maintain a demanding schedule.
+             When I am not coding, you can find me enjoying time with my dog, taking or teaching a yoga class and dabling in photography. 
+         </p>
+        </div>
+        </section>
+<!--Portfolio Sections, I don't have projects yet to link they are there with placeholders-->
+    <section class="page-section" id="work">
+           <h2>Work</h2>
+        <div class="flex-container">
+            <a href="#" class="flex-item project-one">
+                <div>
+                  <h3>Project One</h3>
+                  <span>HTML</span>
+                </div>
+              </a>
 
-    </section>
-<!--Portfolio Sections-->
-    <section>
+            <a href="#" class="flex-item project-two">
+                 <div>
+                    <h3>Project Two</h3>
+                     <span>CSS</span>
+                </div>
+            </a>
 
+            <a href="#" class="flex-item project-three">
+                <div>
+                  <h3>Project Three</h3>
+                  <span>JavaScript</span>
+                </div>
+              </a>
+
+            <a href="#" class="flex-item project-four">
+                <div>
+                  <h3>Project Four</h3>
+                  <span>JavaScript</span>
+                </div>
+            </a>
+
+            <a href="#" class="flex-item project-five">
+                <div>
+                  <h3>Project Five</h3>
+                  <span>JavaScript</span>
+                </div>
+            </a>
+            </div>
     </section>
-    <footer>
-    <!--Footer-->
-    </footer>
+
+    <section class="page-section contact" id="contact">
+     <h2>Contact</h2>
+     <div>
+        <address>
+            <a href="mailto:brewer.kristin17@gmail.com">brewer.kristin17@gmail.com</a>
+            <a href="http://www.github.com/kristinbrewer">GitHub</a>
+            <a href="https://www.linkedin.com/in/kristin-brewer-189489122/">LinkedIn</a>
+        </address>
+    </div>
+    </section>
+</main>
 </body>
 </html>
