@@ -2,7 +2,7 @@
 Webpage portfolio
 
 ## Description
-This is a bootcamp webapge design challenge that has provided example code that I based my code off of to create a portfolio-style webpage that included links to external pages of About Me, Work, Contact and Resume.  This includes a photo and short biography. 
+This is a bootcamp webapge design challenge that has provided example code from which I based my code to create a portfolio-style webpage. This webpage includes links to page sections of About Me, Work, and Contact. There are place holders for future external links for Resume and projects. This includes a photo, short biography, project place holders and contact section.
 
 ## Mockup
 
